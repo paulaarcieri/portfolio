@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+body {
+  background-color: black;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.1rem;
+  color: white;
+  transition: all 0.4s ease-in-out;
+  height: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  font-family: inherit;
+  display: inline-block;
+}
+
+.controles {
+  position: fixed;
+  top: 30%;
+  right: 2%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  .cont1, .cont2, .cont3 {
+    display: flex;
+    padding: 1rem;
+    width: 100%;
+    height: 10%;
+    background-color: rgb(204, 133, 10);
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+    box-shadow: 0px 3px 15px rgba(141, 134, 134, 0.5);
+    cursor: pointer;
+  }
+}
+.controles i {
+  color: white;
+  font-size: 150%;
+}
+.cont1:hover, .cont2:hover, .cont3:hover {
+  background-color: rgb(133, 91, 18);
+  cursor: pointer;
+}
+
+.principal {
+  transition: all 0.4s ease-in-out;
+  margin-top: 6%;
+}
+
+section.principal h1 {
+  font-size: 400%;
+  margin-left: 15%;
+}
+
+h1#home {
+  margin-left: 0;
+  color: black;
+}
+
+h1.title1 {
+  padding-right: 100rem;
+}
+
+section.principal h1 span {
+  color: rgb(209, 135, 6);
+  text-shadow: 1px 1px 15px rgb(0, 0, 0);
+  padding-right: 0;
+}
+
+section.principal h1 span:hover {
+  text-shadow: 3px 0px 10px rgba(255, 207, 117, 0.555);
+}
+
+section.about {
+  padding-top: 50rem;
+  margin-left: 5%;
+  margin-right: 20%;
+}
+
+section.about h1 {
+  font-size: 300%;
+  padding-bottom: 1.5rem;
+}
+
+section.about p {
+  font-size: 130%;
+}
+
+section.about h2 {
+  padding-top: 7rem;
+}
+
+img {
+  padding-top: 3rem;
+}
+
+section.contact {
+  padding-top: 50rem;
+  margin-bottom: 20rem;
+}
+
+section.contact i {
+  font-size: 300%;
+}
+
+section.contact table td {
+  padding-right: 12rem;
+  padding-bottom: 1.5rem;
+}
+
+#instagram:hover {
+  font-size: 150%;
+  transition: all 0.3s ease-in-out;
+}
+
+#facebook:hover {
+  font-size: 150%;
+  transition: all 0.3s ease-in-out;
+}
+
+#mail:hover {
+  font-size: 150%;
+  transition: all 0.3s ease-in-out;
+}
+
+
